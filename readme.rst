@@ -1,70 +1,35 @@
 ###################
-What is CodeIgniter
+A1: Rapid Design Sprint
 ###################
+We chose one of our team members’ idea ‘My garden, your garden’ as the basic rapid design theme, since most of the team members considered excessive waste as one of the most serious problem today. The idea ‘My garden, your garden’ allows the target audience, hobby farmers who join the community garden, to collect compost from caterers or individuals and use the plants or meats as cost. By doing this, caterers and individuals can get free ingredients and hobby farmers can get more compost from individuals and even possible to get voucher from caterers. But after discussion, we found out that the target audience of the brief might be too broad since it involved three different groups. We kept the target audience as hobby farmers who join the community garden, but we changed the interactivity of the brief. We were more focus on hobby farmers themselves instead of other groups of people after the adjustment.
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+We also discovered that there is not only one kind of compost but several, so we classify them into three main kinds of waste, namely food waste, animal waste, and green waste for users to exchange easily. Hobby farmers now can exchange one of the wastes to each other, so there will be no exceeding compost and they can help other farmers who have not enough the specific kind of compost.
 
-*******************
-Release Information
-*******************
+After attending the rapid design sprint, I know better about the difference between designers and people who actually implement the features. Some of the features might be easy to think about but might be difficult to implement, so it is crucial to make a backup plan when designing the system. Therefore, in the future, no matter I am a designer or the one that need to implement the project, I will discuss with team members and make sure there is a replacement function. Overall, in such a short time to come out with a project is not easy, but the experience is really helpful for us to know how to work with others, coding is not the only thing that matters, communication and cooperation also play a big part of group projects.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+###################
+A2: Design Proposal Milestone
+###################
+One of the main feature of our project is exchange compost. The amount of compost user has will be displayed on the top of the screen, users can click one of the icons on the map which represent all the other community gardens. The amount of compost other gardens have will show on the pop up and users can click the button to exchange the waste.
 
-**************************
-Changelog and New Features
-**************************
+The presentation went well without big problem. However, we got two points of feedback from the tutor. The first one was about the purpose of doing the project. Gaedeners need man power instead of more waste, excess of the waste cannot be useful if they have no one to take care of the garden or farmWe did do some research about what will happen when excess or lack of a kind of compost, which is actually a problem happens in real live but we might need to attach the evidence on the website or report.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+The second issue was about the direction of the whole project. At the moment, we only focused on resolve a problem but not interact with the datasets, we treated datasets as a tool to solve a specific issue instead of find out the fun part of the datasets and try to interact base on the data we get. As a result, we changed our focus from problem solving to interacting with the dataset, the changes of the project will be discussed in the following contents.
 
-*******************
-Server Requirements
-*******************
+###################
+A3: Work in Progress
+###################
+During week 7, we decided to make a big change of our project, the intention of our final product now is to encourage individuals to turn food waste into compost by accessing our gamified virtual garden. Each user will have their own virtual garden, with more waste they donate, a more florescent garden they will get.
 
-PHP version 5.6 or newer is recommended.
+We did the paper prototype evaluation in week 8, the design team prepared the materials of paper prototype and we also prepared the tasks for users to complete during the regular meeting. We invited several users to do evaluation and most of them were confusing about selecting background after sign up because of the lack of introduction or text, the issue will be modify in the future for users to have a clear know of what they are going to do. Another feedback was that most of them did not know how to level up the items, most of them tried to click the object but that was not correct, users have to donate more on the specific kind of waste and fill the bar to level up one item. To resolve the problem, we added a tutorial page after sign up, which can also solve the previous problem. Some of them also expressed that the button in the popup window was not like a button so they will not click it, that was because of the sigle colour of paper prototype, we asked them again after we finished the hi-fi protoype on the Figma and the issue was no longer exist.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+During the demonstration, the function had some bug that it could not show a new item correctly when I was doing the donation, and that was because one of our team members clear the items in the garden before the demo but he forgot to clear the database as well, so the amount was not the same as what it showed on the screen. We did not figure out where the problem was during the demo so it might not correctly demonstration our project, that was what I am worried. But after the demo, we found the problem immediately and made a new rule taht every one has to inform others if there is some change of the data.
 
-************
-Installation
-************
+###################
+A4: Final Delivery
+###################
+Since the project is larger than rapid design sprint, in order to implement the project, all team members have to implement one or more pages. I am in charge of making compost game, help centre and the slideshow on homepage also in charge of doing the demo during the class. To implement the feature, I used the built-in drag and drop API and refer the online tutorial. However, the tutorial only taught how to drag one object, so I used a for loop to set all the draggable elements id into dataTransfer.
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Since our design computing project is totally different from the rapid design sprint, only a few codes were reused and did not influence the project. During the implementation, I found out that using APIs was the most difficult part, although they are easy to access, but might not be easy to understand the interactivity so it took me a while to truly understand the features of the API. Another issue was that we might need to adjust other team members’ codes occasionally, but it could be difficult to understand without proper comments. I had to ask the team member who was in charge of implementing that page to understand the logic, the solution of this issue is to make clear comments on each page and function, we did not do it this time, but I will remember and make sure to follow it in the future.
 
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+The day to introduce others about our project, we went to the venue in the moring and set up the computers we need. We tested our project and features several times without any issue, however, when the first person came and tried to use our project, something happened and showed an error which was unexpected. The good thing was that we knew the person so we just quickly aplogized to the user and explained what the system should work to make an amend. Another good news was I remembered the operations they did so we could reproduce the operations and tried to found the problem. We did the same operations again and the bug showed again, the bug happened when user sign up an new account and tried to make their first donation, the system could not read the data from the user and lead to an error. After found out what was the problem, we fixed it in moments but it caused another bug. The new bug was because the log out function did not clear all the cookies so some data still in the system witch lead the calculation of waste amount not functioning correctly. We tried several ways to fix the problem and solved the problem just before the tutors came.The pitch went well without any other bug and we answered all the questions from tutors.
