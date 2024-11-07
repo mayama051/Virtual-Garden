@@ -1,0 +1,188 @@
+.eventbody {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Slick arrow */
+.slick-initialized .slick-slide {
+    display: flex;
+}
+.slick-prev{
+    left:5px;
+    top: 200px;
+    z-index: 999;
+}
+.slick-next{
+    right:30px;
+    top: 200px;
+    z-index: 999;
+}
+.slick-prev::before, .slick-next::before{
+    color: grey;
+    font-size: 50px;
+    opacity: 0.5;
+}
+.slick-prev:hover, .slick-next:hover{
+    color: black;
+}
+
+
+
+/* Event */
+#event_h, #workshop_h{
+    text-decoration: underline;
+    color: black;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 3em;
+    margin: 10px;
+    /* border: 4px pink solid; */
+}
+
+.event, .workshop{
+    overflow: hidden;
+    transition: width 1s ease, opacity 1s ease;
+    
+}
+.e_arrow{
+    position: absolute;
+    top: 420px;
+    padding: 30px;
+    cursor: pointer;
+}
+#e_arrow_l{
+    left: 10px;
+}
+#e_arrow_r{
+    right: 10px;
+
+}
+.e_arrow:hover, .ws_arrow:hover{
+    width: 50px;
+    height: 50px;
+}
+
+.event_box, .workshop_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 4px red solid; */
+    padding: 0;
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+.event, .workshop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 224, 224);
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #3d5706;
+    /* border: 4px orange solid; */
+}
+.event_img, .ws_img{
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+    /* border: 4px red solid; */
+}
+.event_time{
+    background-color: rgba(232, 162, 76, 0.9);
+    color: white;
+    /* font-size: 19px; */
+    font-size: 1.4vw;
+    position: absolute;
+    top: 173px;
+    width: 15.3vw;
+    padding: 5px;
+}
+.event_title, .ws_title{
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2vw;
+    cursor: default;
+}
+.event_location, .ws_location{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* font-size: 13px; */
+    font-size: 1vw;
+}
+.event_link, .ws_link{
+    text-decoration: none;
+    background-color: #8da10d;
+    color: white;
+    width: 16vw;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 3px #3d5706;
+    font-size: 1.2vw;
+}
+.event_link:hover, .ws_link:hover{
+    color: orange;
+}
+
+
+
+/* Workshop */
+.ws_time{
+    background-color: rgba(232, 162, 76, 0.9);
+    color: white;
+    /* font-size: 19px; */
+    font-size: 1.4vw;
+    position: absolute;
+    top:173px;
+    width: 15.3vw;
+    padding: 5px;
+}
+.ws_arrow{
+    position: absolute;
+    /* bottom: 0px; */
+    padding: 30px;
+    cursor: pointer;
+}
+#ws_arrow_l{
+    left: 10px;
+}
+#ws_arrow_r{
+    right: 10px;
+}
+
+
+/* Twitter */
+
+.twitterBody {
+    height: auto;
+}
+
+#tweetPic {
+    width: 70vw;
+    height:auto;
+    object-fit: contain;
+    margin: 3vw 20vw 1vw 15vw;
+}
+
+.twitterMsg {
+    text-align: center;
+    font-size: 3vw;
+    width: 40vw;
+    margin: auto;
+    padding: 1vw;
+    background-color: rgba(253, 211, 0, 0.954);
+    color: rgb(24, 61, 2);
+    z-index: 9;
+    position: absolute;
+    top: 50vh;
+    left: 28vw;
+    border: 1vw solid rgba(117, 82, 2, 0.3);
+}

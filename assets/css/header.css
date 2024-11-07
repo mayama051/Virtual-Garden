@@ -1,0 +1,210 @@
+nav {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #527509;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-style: italic;
+    box-shadow: 2px 0px 2px #3d5706;
+}
+
+#logo {
+    height: 7em;
+    margin-top: auto;
+    margin-left: 1vw;
+    margin-bottom: auto;
+}
+
+.showBg {
+    background-image: url("https://deco1800teams-charon.uqcloud.net/charon//application/image/navBg.png");
+    background-size: cover;
+}
+
+.navbar-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    flex: 33% 33% 33%;
+    margin: auto;
+    text-shadow: 1px 1px 10px #4a4949;
+}
+
+.navbar-ul li {
+    margin: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-ul li a, .navbar-ul li a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-ul li a:hover, #account a:hover {
+    color: orange;
+}
+
+#explore::after {
+    content: "▼";
+    color: white;
+    padding-left:0.2em;
+}
+
+/* Angela Explore dropdown */
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore li{
+    list-style: none;
+    padding: 15px;
+}
+#exp_dropdown li:first-child{
+    border-bottom: 1.5px orange solid;
+}
+#explore{
+    color: white;
+    text-decoration: underline;
+}
+#explore:hover{
+    color: orange;
+}
+#exp_dropdown{
+    position: absolute;
+    top: 75px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    background-color: #527509;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #3d5706;
+    transition: height 0.8s ease, opacity 0.8s ease;
+    z-index: 999;
+    padding: 0;
+}
+.explore:hover #exp_dropdown{
+    height: 150px;
+    width: auto;
+    opacity: 1;
+}
+/*  */
+
+#account {
+    width: 9em;
+    margin-bottom:0.4em;
+    background-color: #B7D118;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-around; */
+    justify-content:center;
+    border-radius: 0 0 0 20px;
+    box-shadow: 2px 2px 5px #3d5706;
+}
+
+#account a {
+    width: auto;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    text-decoration: underline;
+    color: #01014a;
+    padding-top: 0.2em;
+    font-weight: bolder;
+}
+
+
+
+#acc_box li:hover{
+    color: orange;
+}
+#account .accountDrop {
+    width: auto;
+    /* margin-left: 0.3em; */
+    /* margin-right: 0.3em; */
+    text-decoration: underline;
+    color: #01014a;
+    padding-top: 0.2em;
+    font-weight: bolder;
+}
+#acc_dropdown{
+    position: absolute;
+    top: 75px;
+    opacity: 0;
+    height: 0;
+    width: 7.8em;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    background-color: #B7D118;
+    box-shadow: 2px 2px 5px #3d5706;
+    border-radius: 0 0 0 20px;
+    transition: height 0.6s ease, opacity 0.8s ease;
+    z-index: 999;
+}
+#acc_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+#acc_box li{
+    list-style: none;
+    padding: 15px;
+}
+#acc_box li:first-child{
+    border-bottom: 1.5px grey solid;
+}
+#account:hover #acc_dropdown{
+    height: 130px;
+    opacity: 1;
+}
+/*  */
+
+.accountDrop::after {
+    content: "▼";
+    color: #01014a;
+    text-decoration: none;
+    padding-left:0.2em;
+}
+
+.logout svg{
+    margin: 0;
+}
+
+.footer {
+    background-color: #527509;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    align-items: flex-end;
+    color: white;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+#aTree {
+    height: 4.5em;
+    margin-right: 1em;
+    float: left;
+}
+
+.footer p {
+    position: relative;
+    bottom: -0.5em;
+}
+
+.aboutUs {
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: black;
+}
+

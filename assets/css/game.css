@@ -1,0 +1,184 @@
+.drop-zone {
+    display: flex;
+	
+	align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.bin{
+    height: 100%;
+    width: 7vw;
+    
+}
+
+.bin--over {
+    scale: 1.2;
+}
+
+.dragable-items {
+    cursor: pointer;
+}
+
+.dragable-items:hover {
+    scale: 1.5;
+}
+
+#donut {
+    position: absolute;
+    bottom: 25vh;
+    left: 20vw;
+    width: 10vw;
+    height: 10vh;
+    
+}
+
+#corn {
+    position: absolute;
+    bottom: 23vh;
+    left: 12vw;
+    width: 5vw;
+    height: 10vh;
+}
+
+#egg {
+    position: absolute;
+    bottom: 20vh;
+    left: 28vw;
+    width: 10vw;
+    height: 10vh;
+}
+
+#eggshell {
+    position: absolute;
+    bottom: 22vh;
+    left: 37vw;
+    width: 10vw;
+    height: 10vh;
+}
+
+#oil {
+    position: absolute;
+    bottom: 21vh;
+    left: 50vw;
+    width: 4vw;
+    height: 15vh;
+}
+
+#rock {
+    position: absolute;
+    bottom: 19vh;
+    left: 62vw;
+    width: 10vw;
+    height: 12vh;
+}
+
+#fish {
+    position: absolute;
+    bottom: 19vh;
+    left: 82vw;
+    width: 10vw;
+    height: 15vh;
+}
+
+.start {
+    position: absolute;
+    width: 50vw;
+    max-height: 75vh;
+    left: 25vw;
+    top: 20vh;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    z-index: 101;
+    border-radius: 20px;
+}
+
+.close-start {
+    visibility: hidden;
+}
+
+.start .ex {
+    width: 40%;
+    height: 40%;
+}
+
+.bot {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: large;
+}
+
+.bot .btn {
+    width: 8em;
+    border-radius: 20px;
+    opacity: 100%;
+}
+
+.result p, .start p {
+    font-size: 150%;
+}
+
+.result {
+    position: absolute;
+    width: 50vw;
+    height: 75vh;
+    left: 25vw;
+    top: 20vh;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    z-index: 101;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.result p, .result h1, .start p, .start h1 {
+    text-align: center;
+    color: black;
+}
+
+.result-show {
+    visibility: visible;
+}
+
+.top-info {
+    position: absolute;
+    font-size: 200%;
+    font-weight: bold;
+    width: 40vw;
+    left: 30vw;
+    top: 25vh;
+    background-color: white;
+    opacity: 90%;
+    justify-content: center;
+	align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+}
+
+.score-show {
+    position: absolute;
+    font-size: 150%;
+    right: 2vw;
+    top: 20vh;
+    background-color: white;
+    opacity: 90%;
+    justify-content: center;
+	align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+}

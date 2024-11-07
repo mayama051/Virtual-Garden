@@ -1,0 +1,67 @@
+.gameinfo {
+    display: flex;
+    
+}
+.gameinfo .left {
+    width: 60%;
+    font-size: 200%;
+}
+
+.gameinfo .right {
+    width: 40%;
+}
+
+.gameinfo .title {
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #70A304;
+}
+
+.left ul {
+    margin-left: 4%;
+}
+
+.right {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+
+.right .green-box {
+    background-color: #9CD22A;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.right .green-box .text {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.right img {
+    margin-top: 10%;
+}
+
+.bot {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: large;
+}
+
+.bot .btn {
+    width: 8em;
+    border-radius: 20px;
+}
+
+.red {
+    color: red;
+}

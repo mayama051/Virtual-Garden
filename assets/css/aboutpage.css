@@ -1,0 +1,68 @@
+.projectIntro {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamIntro {
+    min-height: 50vh;
+    background-color: #B7D118;
+    display: flex;
+    flex-direction: row;
+}
+
+.teamImg {
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    margin-top: 5vh;
+    object-fit: cover;
+}
+
+#olivia, #jung, #mai, #angela, #ray {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 20vw;
+    height: auto;
+    align-items: center;
+    font-size: x-large;
+}
+
+#olivia h4, #jung h4, #mai h4, #angela h4, #ray h4 {
+    text-decoration: none;
+    cursor: default;
+}
+
+#olivia p, #jung p, #mai p, #angela p, #ray p {
+    font-size: 1.3vw;
+    display: block;
+    padding: 1vw;
+}
+
+.datasetInfo {
+    height: 50vh;
+}
+
+#cycle {
+    width: 20vw;
+    height: 20vw;
+    margin: 1%;
+    margin-top: 3%;
+}
+
+.projectIntro h3, #olivia p, #jung p, #mai p, #angela p, #ray p {
+    text-decoration: none;
+    margin: 3%;
+    margin-top: 1%;
+    color:#3f4804;
+    padding: 1vw;
+    border:3px #B7D118 dashed;
+    border-radius: 5px;
+}
+
+#olivia p, #jung p, #mai p, #angela p, #ray p {
+    border:3px white dashed;
+    margin-bottom: 5vh;
+}

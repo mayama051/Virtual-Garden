@@ -1,0 +1,130 @@
+/* #title{
+    text-align: center;
+    background-color: violet;
+} */
+
+#previous{
+    position: relative;
+}
+
+.imageBox{
+    height: 77vh;
+    position: relative;
+}
+
+.imageBox img{
+    margin-top: 3vh;
+    width: 50vw;
+    height: 62vh;
+    padding-left:25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.imageBox img.active{
+    opacity: 1;
+}
+
+#tutorialImage{
+    height: 65vh;
+}
+
+#buttonBox{
+    display: flex;
+    justify-content:center;
+}
+
+#goGarden{
+    opacity: 0;
+}
+
+
+#goGarden.show{
+    opacity: 1;
+}
+
+#bgTitle{
+    text-align: center;
+    color: #006dc7; 
+    font-family: Arial, sans-serif; 
+    font-size: 2em; 
+    font-weight: bold; 
+    font-style: italic; 
+}
+
+#bg1box:hover{
+    border: 5px solid yellow;
+    cursor: pointer;
+}
+#bg1box{
+    width: 30vw;
+    height: 25vh;
+    background-image: url(../../application/image/bg/garden1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 20vw;
+    color: rgba(0,0,0,0);
+}
+#bg2box:hover{
+    border: 10px solid yellow;
+    cursor: pointer;
+}
+
+#bg2box{
+    width: 30vw;
+    height: 25vh;
+    background-image: url(../../application/image/bg/garden2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+    margin-right: 10vw;
+    color: rgba(0,0,0,0);
+}
+
+
+#bg3box:hover{
+    border: 10px solid yellow;
+    cursor: pointer;
+}
+
+
+#bg3box{
+    width: 30vw;
+    height: 25vh;
+    background-image: url(../../application/image/bg/garden3.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+    display:block;
+    margin: 1vh auto 5vh;
+    color: rgba(0,0,0,0)
+}
+
+
+#bg1{
+    padding-left: 30vw;
+    display: inline-block;
+    color: #1400c7; 
+    font-family: Arial, sans-serif;
+    font-size: 1em; 
+    font-weight: bold; 
+}
+#bg2{
+    padding-left: 22.5vw;
+    display:inline-block;
+    color: #1400c7; 
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    font-weight: bold; 
+}
+#bg3{
+    text-align: center;
+    color: #1400c7; 
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold; 
+}
+
+
+

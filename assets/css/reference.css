@@ -1,0 +1,43 @@
+.reference_body{
+    margin: 40px;
+}
+
+.title{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.subtitle{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subtitle > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ref_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0 0 0;
+}
+
+.ref_item > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ref{
+    width: 80%;
+    margin: 10px auto;
+}
